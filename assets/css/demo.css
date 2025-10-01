@@ -3,20 +3,20 @@
 * File include item demo only specific css only
 ******************************************************************************/
 
-.menu .app-brand.demo {
-  height: 64px;
-  margin-top: 12px;
+.app-brand{
+  margin-top: 25px;
 }
 
-.app-brand-logo.demo svg {
-  width: 22px;
-  height: 38px;
+.brand-logo{
+  width: 70px;
+  height: 50px;
 }
 
-.app-brand-text.demo {
-  font-size: 1.75rem;
-  letter-spacing: -0.5px;
+.brand-logo img{
+  width: 60px;
+  height: 40px;
 }
+
 
 /* ! For .layout-navbar-fixed added fix padding top to .layout-page */
 /* Detached navbar */
