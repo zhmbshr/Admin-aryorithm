@@ -34,6 +34,15 @@
   height: 35px;
 }
 
+.card-chart{
+  height: 180px;
+}
+.card-body-chart{
+  justify-content: space-between;
+}
+.card-body-chart .btn{
+  margin-left: 50px;
+}
 
 /* ! For .layout-navbar-fixed added fix padding top to .layout-page */
 /* Detached navbar */
