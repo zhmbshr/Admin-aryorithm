@@ -350,8 +350,8 @@ document.addEventListener('DOMContentLoaded', function (e) {
   // --------------------------------------------------------------------
   const growthChartEl = document.querySelector('#growthChart'),
     growthChartOptions = {
-      series: [78],
-      labels: ['Growth'],
+      series: [34],
+      labels: ['Usage'],
       chart: {
         height: 200,
         type: 'radialBar'
