@@ -59,9 +59,9 @@
         <div class="app-brand demo">
           <a href="index.html" class="app-brand-link">
             <div class="brand-logo">
-                <img src="assets/img/favicon/ar-black.png" alt="logo">
+              <img src="assets/img/favicon/ar-black.png" alt="logo">
             </div>
-            
+
             <span class="app-brand-text demo menu-text fw-bold ms-2">Aryorithm</span>
           </a>
 
@@ -80,14 +80,14 @@
           <li class="menu-item">
             <a href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-email.html"
               target="_blank" class="menu-link">
-                            <i class="menu-icon tf-icons bx bx-home-smile"></i>
+              <i class="menu-icon tf-icons bx bx-home-smile"></i>
               <div class="text-truncate" data-i18n="Dashboards">Dashboard</div>
             </a>
           </li>
           <li class="menu-item">
             <a href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-chat.html"
               target="_blank" class="menu-link">
-               <i class="menu-icon tf-icons bx bx-data"></i>
+              <i class="menu-icon tf-icons bx bx-data"></i>
               <div class="text-truncate" data-i18n="Layouts">My Models</div>
             </a>
           </li>
@@ -128,7 +128,7 @@
             </a>
           </li>
           <!-- Data Tables -->
-          
+
         </ul>
       </aside>
       <!-- / Menu -->
@@ -154,7 +154,7 @@
               <li class="nav-item navbar-dropdown dropdown-user dropdown">
                 <a class="nav-link dropdown-toggle hide-arrow p-0" href="javascript:void(0);" data-bs-toggle="dropdown">
                   <div class="avatar avatar-online">
-                    <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                    <img src="assets/img/avatars/profile.jpg" alt class="w-px-40 h-auto rounded-circle" />
                   </div>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
@@ -163,7 +163,7 @@
                       <div class="d-flex">
                         <div class="flex-shrink-0 me-3">
                           <div class="avatar avatar-online">
-                            <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                            <img src="assets/img/avatars/profile.jpg" alt class="w-px-40 h-auto rounded-circle" />
                           </div>
                         </div>
                         <div class="flex-grow-1">
@@ -228,7 +228,7 @@
                           <a href="javascript:;" class="btn btn-sm btn-outline-primary">Upload New Model</a>
                           <a href="javascript:;" class="btn btn-sm btn-outline-primary">View API Keys</a>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div class="col-sm-5 text-center text-sm-left">
@@ -239,71 +239,70 @@
                   </div>
                 </div>
               </div>
-              
-            </div>
-            <div class="row">
-
-
-              <!-- Expense Overview -->
-              <div class="col-md-6 col-lg-4 order-1 mb-6">
-                <div class="card h-100">
-                  <div class="card-header nav-align-top">
-                    <ul class="nav nav-pills flex-wrap row-gap-2" role="tablist">
-                      <li class="nav-item">
-                        <button type="button" class="nav-link active" role="tab" data-bs-toggle="tab"
-                          data-bs-target="#navs-tabs-line-card-income" aria-controls="navs-tabs-line-card-income"
-                          aria-selected="true">
-                          Income
-                        </button>
-                      </li>
-                      <li class="nav-item">
-                        <button type="button" class="nav-link" role="tab">Expenses</button>
-                      </li>
-                      <li class="nav-item">
-                        <button type="button" class="nav-link" role="tab">Profit</button>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="card-body">
-                    <div class="tab-content p-0">
-                      <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
-                        <div class="d-flex mb-6">
-                          <div class="avatar flex-shrink-0 me-3">
-                            <img src="assets/img/icons/unicons/wallet.png" alt="User" />
-                          </div>
-                          <div>
-                            <p class="mb-0">Total Balance</p>
-                            <div class="d-flex align-items-center">
-                              <h6 class="mb-0 me-1">$459.10</h6>
-                              <small class="text-success fw-medium">
-                                <i class="icon-base bx bx-chevron-up icon-lg"></i>
-                                42.9%
-                              </small>
-                            </div>
-                          </div>
+              <!-- Total Revenue -->
+              <div class="col-12 col-xxl-8 order-2 order-md-3 order-xxl-2 mb-6 total-revenue">
+                <div class="card">
+                  <div class="row row-bordered g-0">
+                    <div class="col-lg-12">
+                      <div class="card-header d-flex align-items-center justify-content-between">
+                        <div class="card-title mb-0">
+                          <h5 class="m-0 me-2">Usage This Month</h5>
                         </div>
-                        <div id="incomeChart"></div>
-                        <div class="d-flex align-items-center justify-content-center mt-6 gap-3">
-                          <div class="flex-shrink-0">
-                            <div id="expensesOfWeek"></div>
-                          </div>
-                          <div>
-                            <h6 class="mb-0">Income this week</h6>
-                            <small>$39k less than last week</small>
-                          </div>
-                        </div>
+
                       </div>
                     </div>
+                    <div class="col-lg-12">
+                      <div class="card-body px-xl-9 py-12 d-flex align-items-center flex-row">
+
+
+                        <div id="growthChart"></div>
+
+
+                        <div class="text-center fw-medium my-6">62% Company Growth</div>
+
+
+                        <div class="text-center mb-6">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-outline-primary">
+                              <!-- <script>
+                                document.write(new Date().getFullYear() - 1);
+                              </script> -->
+                              Jun
+                            </button>
+                            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="javascript:void(0);">Jun</a></li>
+                              <li><a class="dropdown-item" href="javascript:void(0);">Aug</a></li>
+                              <li><a class="dropdown-item" href="javascript:void(0);">May</a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        
+                      </div>
+
+
+                    </div>
+
+
                   </div>
+
+
                 </div>
               </div>
-              <!--/ Expense Overview -->
+              <!--/ Total Revenue -->
 
+            </div>
+
+            <div class="row">
               <!-- Transactions -->
-              <!-- <div class="col-md-6 col-lg-4 order-2 mb-6">
+              <div class="col-md-12 col-lg-12 order-2 mb-2">
                 <div class="card h-100">
                   <div class="card-header d-flex align-items-center justify-content-between">
-                    <h5 class="card-title m-0 me-2">Transactions</h5>
+                    <h5 class="card-title m-0 me-2">Recent Models </h5>
                     <div class="dropdown">
                       <button class="btn text-body-secondary p-0" type="button" id="transactionID"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -320,7 +319,7 @@
                     <ul class="p-0 m-0">
                       <li class="d-flex align-items-center mb-6">
                         <div class="avatar flex-shrink-0 me-3">
-                          <img src="assets/img/icons/unicons/paypal.png" alt="User" class="rounded" />
+                          <img src="../assets/img/icons/unicons/paypal.png" alt="User" class="rounded" />
                         </div>
                         <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                           <div class="me-2">
@@ -333,54 +332,10 @@
                           </div>
                         </div>
                       </li>
+
                       <li class="d-flex align-items-center mb-6">
                         <div class="avatar flex-shrink-0 me-3">
-                          <img src="assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
-                        </div>
-                        <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                          <div class="me-2">
-                            <small class="d-block">Wallet</small>
-                            <h6 class="fw-normal mb-0">Mac'D</h6>
-                          </div>
-                          <div class="user-progress d-flex align-items-center gap-2">
-                            <h6 class="fw-normal mb-0">+270.69</h6>
-                            <span class="text-body-secondary">USD</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="d-flex align-items-center mb-6">
-                        <div class="avatar flex-shrink-0 me-3">
-                          <img src="assets/img/icons/unicons/chart.png" alt="User" class="rounded" />
-                        </div>
-                        <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                          <div class="me-2">
-                            <small class="d-block">Transfer</small>
-                            <h6 class="fw-normal mb-0">Refund</h6>
-                          </div>
-                          <div class="user-progress d-flex align-items-center gap-2">
-                            <h6 class="fw-normal mb-0">+637.91</h6>
-                            <span class="text-body-secondary">USD</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="d-flex align-items-center mb-6">
-                        <div class="avatar flex-shrink-0 me-3">
-                          <img src="assets/img/icons/unicons/cc-primary.png" alt="User" class="rounded" />
-                        </div>
-                        <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                          <div class="me-2">
-                            <small class="d-block">Credit Card</small>
-                            <h6 class="fw-normal mb-0">Ordered Food</h6>
-                          </div>
-                          <div class="user-progress d-flex align-items-center gap-2">
-                            <h6 class="fw-normal mb-0">-838.71</h6>
-                            <span class="text-body-secondary">USD</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="d-flex align-items-center mb-6">
-                        <div class="avatar flex-shrink-0 me-3">
-                          <img src="assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
+                          <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
                         </div>
                         <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                           <div class="me-2">
@@ -395,7 +350,7 @@
                       </li>
                       <li class="d-flex align-items-center">
                         <div class="avatar flex-shrink-0 me-3">
-                          <img src="assets/img/icons/unicons/cc-warning.png" alt="User" class="rounded" />
+                          <img src="../assets/img/icons/unicons/cc-warning.png" alt="User" class="rounded" />
                         </div>
                         <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                           <div class="me-2">
@@ -411,8 +366,9 @@
                     </ul>
                   </div>
                 </div>
-              </div> -->
+              </div>
               <!--/ Transactions -->
+
             </div>
           </div>
           <!-- / Content -->
@@ -430,7 +386,7 @@
                   , made by
                   <a href="https://Aryorithm.com" target="_blank" class="footer-link">Aryorithm</a>
                 </div>
-                
+
               </div>
             </div>
           </footer>
