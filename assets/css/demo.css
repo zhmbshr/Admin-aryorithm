@@ -44,6 +44,25 @@
   margin-left: 50px;
 }
 
+.card-body-billing{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}
+
+.card-body-btn-billing{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card-body-btn-billing a{
+  height: 35px;
+}
+
 /* ! For .layout-navbar-fixed added fix padding top to .layout-page */
 /* Detached navbar */
 .layout-navbar-fixed .layout-wrapper:not(.layout-horizontal):not(.layout-without-menu) .layout-page {
